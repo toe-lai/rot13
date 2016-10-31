@@ -1,0 +1,26 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000;
+}
+
+.roter-header {
+  height: 100px;
+  color: #989898;
+  margin-top: 72px;
+}
+
+.form-roter {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-roter .label {
+  color: #E0E0E0;
+}
+
+.form-roter button {
+  background-color: #212121;
+  color: #fff;
+}

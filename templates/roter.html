@@ -1,0 +1,17 @@
+{% extends "roter_template.html" %}
+
+{% block content %}
+
+
+<form class="form-roter" method="post" action="/">
+<div class="form-group">
+    <label for="text" class="label">Enter some text to ROT13 :</label>
+    <textarea class="form-control" id="text" name="text" rows="7" required=required>{% if output %}{{output}}{% endif %}</textarea>
+</div>
+{% if action_label %}
+	<input type="hidden" name="action_label" value="{{action_label}}" />
+	<button class="btn btn-lg btn-default btn-block" type="submit">{{action_label}}</button>
+{% endif %}
+</form>
+
+{% endblock %}
